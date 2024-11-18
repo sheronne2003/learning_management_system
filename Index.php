@@ -32,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="LMS.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./page/AboutUs.php">About_Us</a>
+                        <a class="nav-link" href="./page/AboutUs.php">About</a>
                     </li>
                     <li class="nav-item">
-                        
+                        <a class="nav-link" href="Contactus.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Login_Page.php">Login</a>

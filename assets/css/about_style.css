@@ -18,6 +18,10 @@ body {
     padding: 1rem 0;
 }
 
+.navbar .navbar-brand img {
+    height: 40px;  /* Adjust the height of the logo */
+}
+
 /* General Navbar Styling */
 .navbar {
     background-color: #007bff; /* Blue background */

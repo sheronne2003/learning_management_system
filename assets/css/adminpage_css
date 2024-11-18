@@ -1,0 +1,198 @@
+body {
+    width: 100%;
+    background: rgb(243, 198, 198);
+    position: relative;
+    display: flex;
+}
+
+#menu{
+    background: rgb(0, 0, 0);
+    width: 300px;
+    height: 700px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: chartreuse;
+    padding: 30px 0 0 30px;
+}
+
+#menu .logo img{
+    width: 60px;
+    margin-right: 15px;
+}
+
+#menu .items{
+    margin-top: 40px;   
+}
+
+#menu .items li{
+    list-style: none;
+    padding: 15px 0;
+    transition: 0.3s ease;
+}
+
+#menu .items li:hover{
+    background: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
+#menu .items li:nth-child(1){
+    border-left: 4px solid rgb(158, 156, 156);
+}
+
+#menu .items li i{
+    color: rgb(38, 236, 186);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 10px 0 25px;
+}
+
+#menu .items li:hover i,
+#menu .items li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+#menu.items li a{
+    text-decoration: none;
+    color: rgb(188, 209, 228);
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+
+#interface{
+    width: calc(100%-300px);
+    margin-left: 300px;
+    position: relative;
+}
+
+#interface .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-bottom: 3px solid blue;
+    position: fixed;
+    width: calc(100%-300px);
+}
+
+#interface .navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid rgb(95, 93, 94);
+    border-radius: 4px;
+}
+
+#interface .navigation .search i{
+    margin-right: 14px;
+}
+
+#interface .navigation .search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+#interface .navigation .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#interface .navigation .profile i{
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#interface .navigation .profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.option_btn{
+    padding: 30px 30px 0 30px;
+    margin-top: 60px;
+}
+
+
+.board{
+    width: 94%;
+    margin: 30px 0 30px 30px;
+    overflow: auto;
+    background: white;
+    border-radius: 8px;
+}
+
+.board h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.board p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(48, 47, 47);
+}
+
+.board .user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid darkturquoise;
+}
+
+thead td{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: rgb(172, 221, 243);
+    text-align: start;
+    padding: 25px;
+}
+
+tbody tr td{
+    padding: 15px 20px;  
+}
+
+.role p{
+    background: rgb(102, 189, 247);
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 40px;
+    color: rgb(0, 0, 0); 
+}
+
+.status p{
+    background: rgb(69, 173, 243);
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.action a{
+    text-decoration: none;
+    background: rgb(40, 122, 245);
+    color: rgb(0, 0, 0);
+}

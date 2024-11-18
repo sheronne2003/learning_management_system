@@ -43,7 +43,7 @@
                         <a class="nav-link active" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="../Contactus.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../Login_Page.php">Login</a>
@@ -115,7 +115,7 @@
                 <!-- Team Member 1 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-                        <img src="https://via.placeholder.com/120" alt="Sheronne Anjalee">
+                        <img src="./Images/pic1" alt="Sheronne Anjalee">
                         <h3>Sheronne Anjalee</h3>
                         <p>Project Manager</p>
                         <p>Jane oversees the entire project, ensuring that we meet all our goals efficiently and on time.</p>
@@ -125,7 +125,7 @@
                 <!-- Team Member 2 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member" data-aos="fade-up" data-aos-delay="200">
-                        <img src="https://via.placeholder.com/120" alt="Dulmini Tharuka">
+                        <img src="./Images/pic4" alt="Dulmini Tharuka">
                         <h3>Dulmini Tharuka</h3>
                         <p>Lead Developer</p>
                         <p>John is responsible for the technical aspects of our LMS, ensuring top-notch performance.</p>
@@ -145,7 +145,7 @@
                 <!-- Team Member 4 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member" data-aos="fade-up" data-aos-delay="400">
-                        <img src="https://via.placeholder.com/120" alt="Diluni Kawindi">
+                        <img src="" alt="Diluni Kawindi">
                         <h3>Diluni Kawindi</h3>
                         <p>Content Specialist</p>
                         <p>Michael curates the educational content on our LMS, creating engaging materials for learners.</p>
