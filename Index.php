@@ -35,13 +35,10 @@
                         <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
+                        <a class="nav-link" href="./page/AboutUs.php">About_Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./page/AboutUs.php">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Contact_Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Login_Page.php">Login</a>
