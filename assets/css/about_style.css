@@ -1,0 +1,78 @@
+
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #444;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .section:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Colorful Divs for Each Section */
+        .intro { background: linear-gradient(135deg, #ff6f61, #d84315); color: white; }
+        .purposes { background: linear-gradient(135deg, #4db6ac, #00897b); color: white; }
+        .functionality { background: linear-gradient(135deg, #9575cd, #512da8); color: white; }
+        .get-started { background: linear-gradient(135deg, #ffd54f, #fbc02d); color: white; }
+        .mission { background: linear-gradient(135deg, #42a5f5, #1e88e5); color: white; }
+
+        /* Team Section Styling */
+        .team-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(25% - 20px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .team-member p {
+            color: #666;
+        }
