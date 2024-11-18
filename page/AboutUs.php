@@ -115,7 +115,7 @@
                 <!-- Team Member 1 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member" data-aos="fade-up" data-aos-delay="100">
-                        <img src="./Images/pic1" alt="Sheronne Anjalee">
+                        <img src="./Images/pic1.jpg" alt="Sheronne Anjalee">
                         <h3>Sheronne Anjalee</h3>
                         <p>Project Manager</p>
                         <p>Jane oversees the entire project, ensuring that we meet all our goals efficiently and on time.</p>

@@ -76,6 +76,20 @@
             background-color: #388E3C;
         }
 
+        .notes{
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+            width: 100%;
+        }
+
         /* Footer description styling */
         .login-container .description {
             color: #666;
@@ -99,7 +113,7 @@
     
     <!-- Login form -->
     <form action="/start-exam" method="POST">
-        <button class="notes"><a href="./exam/exam1.php">Start Exam</a></button>
+        <button class="notes"><a href="exam2.php">Start Exam</a></button>
     </form>
 
     <!-- Description section -->

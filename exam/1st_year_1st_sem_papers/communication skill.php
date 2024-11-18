@@ -37,6 +37,11 @@
     width:800px;
     }
 
+    .logo{
+        height: 40px;
+        weight: 20px;
+    }
+
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
@@ -107,6 +112,9 @@ font-size:20px;
     </style>
  <body>
     <div class="box">
+        <div class="logo">
+    <center><img src="./Images/logo1.jpg" alt="SLIATE LMS Logo"></center>
+</div>
         <div class="title">
             <h4>Higher National Diploma in Information Technology</br>
             First Year First Semester Examination-2021</br>
