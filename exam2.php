@@ -3,21 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam</title>
+    <title>Time Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        table {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 150px;
+        background: url(./Images/exam3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+    }
+    
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .year-section {
+        margin-bottom: 50px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .schedule, .term-schedule {
+        margin-top: 10px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 50px;
@@ -58,27 +96,26 @@
         .value {
             background-color: #8d8c89;
             text-align: left;
-            margin: 8px 0;
-            padding: 10px;
-            border-radius: 5px;
         }
     </style>
-</head>
-<body>
+    <div class="container">
+        <h1><u>Examination</u></h1>
 
-    <h1>Exam for HND IT</h1>
-    <table>
-        <thead>
-            <tr class="year">
-                <td colspan="2">First Year</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="semester">1st Semester</td>
-                <td class="semester">2nd Semester</td>
-            </tr>
-            <tr>
+        <div class="year-section">
+            <button onclick="toggleSchedule('firstYear')">First Year Exam</button>
+            <div id="firstYear" class="schedule hidden">
+                    <table>
+                        <thead>
+                            <tr class="year">
+                                <td colspan="2">First Year</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="semester">1st Semester</td>
+                            <td class="semester">2nd Semester</td>
+                        </tr>
+                        <tr>
                 <td class="value"><a href="./1st_year_1st_sem_papers/programming.php">Visual Application Programming</a></td>
                 <td class="value"><a href="./1st_year_2nd_sem_papers/fundamentals of programming.php">Fundamentals of Programming</a></td>
             </tr>
@@ -102,20 +139,25 @@
                 <td class="value"></td>
                 <td class="value"><a href="./1st_year_2nd_sem_papers/UI.php">Principles of User Interface Design</a></td>
             </tr>
-        </tbody>
-    </table>
-
-    <table>
-        <thead>
-            <tr class="year">
-                <td>Second Year</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="semester">1st Semester</td>
-            </tr>
-            <tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+                        
+        <div class="year-section">
+            <button onclick="toggleSchedule('secondYear')">Second Year Exam</button>
+            <div id="secondYear" class="schedule hidden">
+                    <table>
+                        <thead>
+                            <tr class="year">
+                                <td colspan="2">First Year</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="semester">1st Semester</td>
+                            </tr>
+                            <tr>
                 <td class="value"><a href="./2nd_year_1st_sem_papers/OOP.php">Object Oriented Programming</a></td>
             </tr>
             <tr>
@@ -136,9 +178,19 @@
             <tr>
                 <td class="value"><a href="./2nd_year_1st_sem_papers/Statics for IT.phpl">Statistics for IT</a></td>
             </tr>
-        </tbody>
-    </table>
+                        </tbody>
+                    </table>
+    
+                </div>
+                </div>
+            </div>
+        </div>
 
-
+    <script>
+        function toggleSchedule(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('hidden');
+        }
+    </script>
 </body>
 </html>

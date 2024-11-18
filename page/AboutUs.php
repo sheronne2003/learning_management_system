@@ -24,7 +24,7 @@
         <div class="container">
             <!-- Logo Section -->
             <a class="navbar-brand" href="#">
-                <img src="./Images/logo.jpg" alt="HNDIT LMS Logo" height="40">
+                <img src="./Images/logo.jpg" alt="HNDIT LMS Logo">
             </a>
             <!-- Navbar Toggler (for mobile) -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,7 +125,7 @@
                 <!-- Team Member 2 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member" data-aos="fade-up" data-aos-delay="200">
-                        <img src="./Images/pic4" alt="Dulmini Tharuka">
+                        <img src="" alt="Dulmini Tharuka">
                         <h3>Dulmini Tharuka</h3>
                         <p>Lead Developer</p>
                         <p>John is responsible for the technical aspects of our LMS, ensuring top-notch performance.</p>

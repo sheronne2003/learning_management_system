@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Operating System </title>
+<title> Object Oriented Programming </title>
 <body>
 </br>
   <body>
@@ -40,10 +40,9 @@
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
-    font-weight:700;
-    font-size:35px;
+    font-weight:200;
+    font-size:30px;
     text-align:center;
-    background:orange;
     }
 
 
@@ -109,115 +108,117 @@ font-size:20px;
  <body>
     <div class="box">
         <div class="title">
-            Operating System 
+        <h4>Higher National Diploma in Information Technology</br>
+            Second Year First Semester Examination-2022</br>
+            IT 1062-Object Oriented Programming</h4> 
         </div>
         <div class="que_text">    
-            1.What is the primary purpose of an operating system?</br>
+            1.Which of the following is not a fundamental concept of OOP?</br>
         </div>
 	   <div class="answer">
-           <input type="radio" name="q1">To compile code</br></br>
-           <input type="radio" name="q1" id="correct1">To manage system resources and provide a user interface</br></br>
-           <input type="radio" name="q1">To control the power of the computer</br></br>
-	       <input type="radio" name="q1">To store data permanently</br>
+           <input type="radio" name="q1">Inheritance</br></br>
+           <input type="radio" name="q1">Encapsulation</br></br>
+           <input type="radio" name="q1">Polymorphism</br></br>
+	       <input type="radio" name="q1" id="correct1">Compilation</br>
 	   </div>
 	   </br>
 
        <div class="que_text">    
-        2.Which of the following is not an operating system?</br>
+        2.In OOP, the process of using the same function name but with different parameters is called:</br>
     </div>
    <div class="answer">
-       <input type="radio" name="q2">Windows</br></br>
-       <input type="radio" name="q2">Linux</br></br>
-       <input type="radio" name="q2" id="correct2">MS Word</br></br>
-       <input type="radio" name="q2">macOS</br>
+       <input type="radio" name="q2">Inheritance</br></br>
+       <input type="radio" name="q2">Encapsulation</br></br>
+       <input type="radio" name="q2" id="correct2">Method Overloading</br></br>
+       <input type="radio" name="q2">Method Overriding</br>
    </div>
    </br>
 
    <div class="que_text">    
-    3.What is the function of the kernel in an operating system?</br>
+    3.What is the purpose of encapsulation in OOP?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q3" id="correct3">To manage system resources and act as a bridge between applications and hardware</br></br>
-   <input type="radio" name="q3">To provide internet access</br></br>
-   <input type="radio" name="q3">To control the graphical user interface</br></br>
-   <input type="radio" name="q3">To save files on the hard drive</br>
+   <input type="radio" name="q3">To reuse code in multiple programs</br></br>
+   <input type="radio" name="q3" id="correct3">To hide the internal details of an object</br></br>
+   <input type="radio" name="q3">To allow one class to inherit from another</br></br>
+   <input type="radio" name="q3">To allow multiple objects to have the same methods</br>
 </div>
 </br>
 
 <div class="que_text">    
-    4.Which of the following is a characteristic of a real-time operating system?</br>
+    4.Which OOP concept allows a subclass to inherit properties and methods from a superclass?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q4" id="correct4">It provides high-speed processing for specific applications</br></br>
-   <input type="radio" name="q4">It has complex graphical interfaces</br></br>
-   <input type="radio" name="q4">It is open-source</br></br>
-   <input type="radio" name="q4">It is designed for personal use</br>
+   <input type="radio" name="q4">Abstraction</br></br>
+   <input type="radio" name="q4">Encapsulation</br></br>
+   <input type="radio" name="q4">Polymorphism</br></br>
+   <input type="radio" name="q4" id="correct4">Inheritance</br>
 </div>
 </br>
 
 <div class="que_text">    
-    5.What is the purpose of virtual memory in an operating system?</br>
+    5.In OOP, what does 'polymorphism' allow you to do?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q5">To increase the physical memory of the system</br></br>
-   <input type="radio" name="q5" id="correct5">To allow larger programs to be run than what physical memory can handle</br></br>
-   <input type="radio" name="q5">To speed up the processor</br></br>
-   <input type="radio" name="q5">To save data permanently</br>
+   <input type="radio" name="q5">Write a program once and execute it on multiple platforms</br></br>
+   <input type="radio" name="q5">Access private data directly from outside the class</br></br>
+   <input type="radio" name="q5" id="correct5">Define methods in a parent class and override them in child classes</br></br>
+   <input type="radio" name="q5">None of the above</br>
 </div>
 </br>
 
 <div class="que_text">    
-    6.In a multi-tasking operating system, what is the term for the process of the operating system switching between tasks?</br>
+    6.Which of the following defines an “abstract class” in OOP?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q6">Thrashing</br></br>
-   <input type="radio" name="q6" id="correct6">Context switching</br></br>
-   <input type="radio" name="q6">Paging</br></br>
-   <input type="radio" name="q6">Scheduling</br>
+   <input type="radio" name="q6">A class with no methods</br></br>
+   <input type="radio" name="q6">A class with only static methods</br></br>
+   <input type="radio" name="q6" id="correct6">A class that cannot be instantiated and may have abstract methods</br></br>
+   <input type="radio" name="q6">A class that can only be instantiated once</br>
 </div>
 </br>
 
 <div class="que_text">    
-    7.Which of these is a non-preemptive scheduling algorithm?</br>
+    7.Which OOP principle encourages the idea of “one class, one responsibility”?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q7">Round Robin</br></br>
-   <input type="radio" name="q7" id="correct7">Shortest Job Next (SJN)</br></br>
-   <input type="radio" name="q7">Priority Scheduling</br></br>
-   <input type="radio" name="q7">Multilevel Queue Scheduling</br>
+   <input type="radio" name="q7">Encapsulation</br></br>
+   <input type="radio" name="q7">Inheritance</br></br>
+   <input type="radio" name="q7" id="correct7">Single Responsibility Principle</br></br>
+   <input type="radio" name="q7">Polymorphism</br>
    </div>
 </br>
 
 <div class="que_text">    
-    8.What type of operating system is used in embedded devices?</br>
+    8.What keyword is used in many OOP languages to create an object from a class?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q8">Batch Operating System</br></br>
-   <input type="radio" name="q8">Distributed Operating System</br></br>
-   <input type="radio" name="q8" id="correct8">Real-Time Operating System</br></br>
-   <input type="radio" name="q8">Time-Sharing Operating System</br>
+   <input type="radio" name="q8">class</br></br>
+   <input type="radio" name="q8">object</br></br>
+   <input type="radio" name="q8" id="correct8">new</br></br>
+   <input type="radio" name="q8">void</br>
 </div>
 </br>
 
 <div class="que_text">    
-    9.Which of the following is true about file systems in an OS?</br>
+    9.In OOP, which of the following best describes a 'constructor'?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q9">They manage CPU scheduling</br></br>
-   <input type="radio" name="q9" id="correct9">They organize and store files on a storage medium</br></br>
-   <input type="radio" name="q9">They handle memory allocation</br></br>
-   <input type="radio" name="q9">They control internet connectivity</br>
+   <input type="radio" name="q9" id="correct9">A method called automatically when an object is created</br></br>
+   <input type="radio" name="q9">A function that assigns values to private data members</br></br>
+   <input type="radio" name="q9">A function that destroys an object</br></br>
+   <input type="radio" name="q9">A function that calls other methods in the class</br>
 </div>
 </br>
 
 <div class="que_text">    
-    10.In UNIX-like operating systems, which command is used to list files in a directory?</br>
+    10.Which of the following allows you to change the behavior of a method in a subclass?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q10" id="correct10">ls</br></br>
-   <input type="radio" name="q10">cd</br></br>
-   <input type="radio" name="q10">rm</br></br>
-   <input type="radio" name="q10">mkdir</br>
+   <input type="radio" name="q10">Overloading</br></br>
+   <input type="radio" name="q10" id="correct10">Overriding</br></br>
+   <input type="radio" name="q10">Encapsulation</br></br>
+   <input type="radio" name="q10">Aggregation</br>
 </div>
 </br>
 

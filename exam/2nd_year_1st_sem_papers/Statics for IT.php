@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Object Oriented Programming </title>
+<title> Statics for IT </title>
 <body>
 </br>
   <body>
@@ -40,10 +40,9 @@
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
-    font-weight:700;
-    font-size:35px;
+    font-weight:200;
+    font-size:30px;
     text-align:center;
-    background:orange;
     }
 
 
@@ -109,115 +108,117 @@ font-size:20px;
  <body>
     <div class="box">
         <div class="title">
-            Object Oriented Programming 
+        <h4>Higher National Diploma in Information Technology</br>
+            Second Year First Semester Examination-2022</br>
+            IT 1062-Statics for IT</h4> 
         </div>
         <div class="que_text">    
-            1.Which of the following is not a fundamental concept of OOP?</br>
+            1.Which of the following best describes the mean?</br>
         </div>
 	   <div class="answer">
-           <input type="radio" name="q1">Inheritance</br></br>
-           <input type="radio" name="q1">Encapsulation</br></br>
-           <input type="radio" name="q1">Polymorphism</br></br>
-	       <input type="radio" name="q1" id="correct1">Compilation</br>
+           <input type="radio" name="q1">The middle value in a data set</br></br>
+           <input type="radio" name="q1">The value that appears most frequently in a data set</br></br>
+           <input type="radio" name="q1" id="correct1">The sum of all values divided by the number of values</br></br>
+	       <input type="radio" name="q1">The range of values in a data set</br>
 	   </div>
 	   </br>
 
        <div class="que_text">    
-        2.In OOP, the process of using the same function name but with different parameters is called:</br>
+        2.What is the probability of getting a head when flipping a fair coin?</br>
     </div>
    <div class="answer">
-       <input type="radio" name="q2">Inheritance</br></br>
-       <input type="radio" name="q2">Encapsulation</br></br>
-       <input type="radio" name="q2" id="correct2">Method Overloading</br></br>
-       <input type="radio" name="q2">Method Overriding</br>
+       <input type="radio" name="q2">1</br></br>
+       <input type="radio" name="q2" id="correct2">0.5</br></br>
+       <input type="radio" name="q2">0.25</br></br>
+       <input type="radio" name="q2">0.75</br>
    </div>
    </br>
 
    <div class="que_text">    
-    3.What is the purpose of encapsulation in OOP?</br>
+    3.Which of the following is NOT a measure of central tendency?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q3">To reuse code in multiple programs</br></br>
-   <input type="radio" name="q3" id="correct3">To hide the internal details of an object</br></br>
-   <input type="radio" name="q3">To allow one class to inherit from another</br></br>
-   <input type="radio" name="q3">To allow multiple objects to have the same methods</br>
+   <input type="radio" name="q3">Mean</br></br>
+   <input type="radio" name="q3">Median</br></br>
+   <input type="radio" name="q3">Mode</br></br>
+   <input type="radio" name="q3" id="correct3">Standard deviation</br>
 </div>
 </br>
 
 <div class="que_text">    
-    4.Which OOP concept allows a subclass to inherit properties and methods from a superclass?</br>
+    4.In a normal distribution, what percentage of data falls within one standard deviation of the mean?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q4">Abstraction</br></br>
-   <input type="radio" name="q4">Encapsulation</br></br>
-   <input type="radio" name="q4">Polymorphism</br></br>
-   <input type="radio" name="q4" id="correct4">Inheritance</br>
+   <input type="radio" name="q4">50%</br></br>
+   <input type="radio" name="q4" id="correct4">68%</br></br>
+   <input type="radio" name="q4">95%</br></br>
+   <input type="radio" name="q4">99.7%</br>
 </div>
 </br>
 
 <div class="que_text">    
-    5.In OOP, what does 'polymorphism' allow you to do?</br>
+    5.What is a sample in statistics?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q5">Write a program once and execute it on multiple platforms</br></br>
-   <input type="radio" name="q5">Access private data directly from outside the class</br></br>
-   <input type="radio" name="q5" id="correct5">Define methods in a parent class and override them in child classes</br></br>
+   <input type="radio" name="q5" id="correct5">A subset of the population used to represent the whole</br></br>
+   <input type="radio" name="q5">The entire population under study</br></br>
+   <input type="radio" name="q5">Data collected from every individual</br></br>
    <input type="radio" name="q5">None of the above</br>
 </div>
 </br>
 
 <div class="que_text">    
-    6.Which of the following defines an “abstract class” in OOP?</br>
+    6.In hypothesis testing, what is the p-value?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q6">A class with no methods</br></br>
-   <input type="radio" name="q6">A class with only static methods</br></br>
-   <input type="radio" name="q6" id="correct6">A class that cannot be instantiated and may have abstract methods</br></br>
-   <input type="radio" name="q6">A class that can only be instantiated once</br>
+   <input type="radio" name="q6" id="correct6">The probability of observing the sample data given that the null hypothesis is true</br></br>
+   <input type="radio" name="q6">The mean of the population</br></br>
+   <input type="radio" name="q6">The standard deviation of the sample</br></br>
+   <input type="radio" name="q6">The range of the data set</br>
 </div>
 </br>
 
 <div class="que_text">    
-    7.Which OOP principle encourages the idea of “one class, one responsibility”?</br>
+    7.Which of the following is true about a skewed distribution?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q7">Encapsulation</br></br>
-   <input type="radio" name="q7">Inheritance</br></br>
-   <input type="radio" name="q7" id="correct7">Single Responsibility Principle</br></br>
-   <input type="radio" name="q7">Polymorphism</br>
+   <input type="radio" name="q7">The mean and median are always equal</br></br>
+   <input type="radio" name="q7" id="correct7">The mean is closer to the tail of the distribution</br></br>
+   <input type="radio" name="q7">The mode is always greater than the mean</br></br>
+   <input type="radio" name="q7">None of the above</br>
    </div>
 </br>
 
 <div class="que_text">    
-    8.What keyword is used in many OOP languages to create an object from a class?</br>
+    8.If two events are independent, what is true about their probabilities?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q8">class</br></br>
-   <input type="radio" name="q8">object</br></br>
-   <input type="radio" name="q8" id="correct8">new</br></br>
-   <input type="radio" name="q8">void</br>
+   <input type="radio" name="q8">The probability of both events occurring is zero</br></br>
+   <input type="radio" name="q8" id="correct8">The probability of both events occurring is the product of their individual probabilities</br></br>
+   <input type="radio" name="q8">The probability of both events occurring is the sum of their probabilities</br></br>
+   <input type="radio" name="q8">None of the above</br>
 </div>
 </br>
 
 <div class="que_text">    
-    9.In OOP, which of the following best describes a 'constructor'?</br>
+    9.What is the term for the square root of the variance?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q9" id="correct9">A method called automatically when an object is created</br></br>
-   <input type="radio" name="q9">A function that assigns values to private data members</br></br>
-   <input type="radio" name="q9">A function that destroys an object</br></br>
-   <input type="radio" name="q9">A function that calls other methods in the class</br>
+   <input type="radio" name="q9">Mean</br></br>
+   <input type="radio" name="q9">Median</br></br>
+   <input type="radio" name="q9">Range</br></br>
+   <input type="radio" name="q9" id="correct9">Standard deviation</br>
 </div>
 </br>
 
 <div class="que_text">    
-    10.Which of the following allows you to change the behavior of a method in a subclass?</br>
+    10.Which of the following is a categorical variable?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q10">Overloading</br></br>
-   <input type="radio" name="q10" id="correct10">Overriding</br></br>
-   <input type="radio" name="q10">Encapsulation</br></br>
-   <input type="radio" name="q10">Aggregation</br>
+   <input type="radio" name="q10">Age</br></br>
+   <input type="radio" name="q10">Weight</br></br>
+   <input type="radio" name="q10" id="correct10">Gender</br></br>
+   <input type="radio" name="q10">Height</br>
 </div>
 </br>
 

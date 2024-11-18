@@ -141,6 +141,7 @@
                 <td>Attend urgent meeting tomorrow at 10 AM. Check the report for details.</td>
             </tr>
         </table>
+        <a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
     </div>
 </body>
 

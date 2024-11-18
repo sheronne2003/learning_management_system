@@ -40,10 +40,9 @@
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
-    font-weight:700;
-    font-size:35px;
+    font-weight:200;
+    font-size:30px;
     text-align:center;
-    background:orange;
     }
 
 
@@ -109,7 +108,9 @@ font-size:20px;
  <body>
     <div class="box">
         <div class="title">
-            Data Structure and Algorithm 
+        <h4>Higher National Diploma in Information Technology</br>
+            Second Year First Semester Examination-2022</br>
+            IT 1062-Data Structure and Algorithm</h4>  
         </div>
         <div class="que_text">    
             1.Which of the following data structures is most efficient for implementing a priority queue?</br>

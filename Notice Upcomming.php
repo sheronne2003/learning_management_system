@@ -158,6 +158,7 @@
         <div style="text-align: center; margin-top: 20px;">
             <button class="button">View More Events</button>
         </div>
+        <a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
     </div>
 </body>
 </html>

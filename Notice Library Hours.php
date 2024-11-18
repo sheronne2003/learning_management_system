@@ -131,6 +131,8 @@
     </table>
 </div>
 
+<a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
+
 <div class="footer">
     <p>&copy; 2024 Library Services | <a href="#">Contact Us</a> | <a href="#">FAQ</a></p>
 </div>

@@ -40,10 +40,9 @@ width:800px;
 .title{
 border-bottom:1px solid;
 margin-bottom:30px;
-font-weight:700;
-font-size:35px;
+font-weight:200;
+font-size:30px;
 text-align:center;
-background:yellow;
 }
 
 
@@ -110,7 +109,9 @@ font-size:20px;
 <body>
 <div class="box">
 <div class="title">
-Web Design
+<h4>Higher National Diploma in Information Technology</br>
+            First Year First Semester Examination-2021</br>
+            IT 1062-Web Design</h4>
 </div>
    <div class="que_text">    
        1.Who is the inventor of www? </br>

@@ -156,7 +156,7 @@
         </table>
     </div>
 </div>
-
+<a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
 <footer class="footer">
     &copy; 2024 Exam Schedule. All Rights Reserved.
 </footer>

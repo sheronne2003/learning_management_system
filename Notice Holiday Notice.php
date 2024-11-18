@@ -110,6 +110,8 @@
             </tr>
         </table>
 
+        <a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
+
         <div class="holiday-footer">
             <p>For more information, please visit our <a href="#" class="footer-link">official website</a>.</p>
         </div>

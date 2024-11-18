@@ -169,7 +169,7 @@
                 </table>
             </div>
         </div>
+        <a href="Notice_Board.php"><input type="button" value="Back" name="Back" class="btn1"></a>
     </div>
-
 </body>
 </html>

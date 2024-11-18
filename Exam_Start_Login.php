@@ -93,13 +93,12 @@
 <body>
 
 <div class="login-container">
+<img src="./Images/logo1.jpg" alt="SLIATE LMS Logo">
     <h1>Welcome to HNDIT LMS</h1>
     <p>Please login to access your exam paper.</p>
     
     <!-- Login form -->
     <form action="/start-exam" method="POST">
-        <input type="text" placeholder="Username" required>
-        <input type="password" placeholder="Password" required>
         <button class="notes"><a href="./exam/exam1.php">Start Exam</a></button>
     </form>
 

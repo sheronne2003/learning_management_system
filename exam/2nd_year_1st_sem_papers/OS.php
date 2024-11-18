@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Web Programming </title>
+<title> Operating System </title>
 <body>
 </br>
   <body>
@@ -40,10 +40,9 @@
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
-    font-weight:700;
-    font-size:35px;
+    font-weight:200;
+    font-size:30px;
     text-align:center;
-    background:orange;
     }
 
 
@@ -109,115 +108,117 @@ font-size:20px;
  <body>
     <div class="box">
         <div class="title">
-            Web Programming 
+        <h4>Higher National Diploma in Information Technology</br>
+            Second Year First Semester Examination-2022</br>
+            IT 1062-Operating System</h4> 
         </div>
         <div class="que_text">    
-            1.What does HTML stand for?</br>
+            1.What is the primary purpose of an operating system?</br>
         </div>
 	   <div class="answer">
-           <input type="radio" name="q1">Hyperlinks and Text Markup Language</br></br>
-           <input type="radio" name="q1" id="correct1">Hyper Text Markup Language</br></br>
-           <input type="radio" name="q1">Home Tool Markup Language</br></br>
-	       <input type="radio" name="q1">Hyper Tool Markup Language</br>
+           <input type="radio" name="q1">To compile code</br></br>
+           <input type="radio" name="q1" id="correct1">To manage system resources and provide a user interface</br></br>
+           <input type="radio" name="q1">To control the power of the computer</br></br>
+	       <input type="radio" name="q1">To store data permanently</br>
 	   </div>
 	   </br>
 
        <div class="que_text">    
-        2.Which of the following is used to style a web page?</br>
+        2.Which of the following is not an operating system?</br>
     </div>
    <div class="answer">
-       <input type="radio" name="q2">HTML</br></br>
-       <input type="radio" name="q2" id="correct2">CSS</br></br>
-       <input type="radio" name="q2">PHP</br></br>
-       <input type="radio" name="q2">JavaScript</br>
+       <input type="radio" name="q2">Windows</br></br>
+       <input type="radio" name="q2">Linux</br></br>
+       <input type="radio" name="q2" id="correct2">MS Word</br></br>
+       <input type="radio" name="q2">macOS</br>
    </div>
    </br>
 
    <div class="que_text">    
-    3.Which language is primarily used for client-side scripting on the web?</br>
+    3.What is the function of the kernel in an operating system?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q3">PHP</br></br>
-   <input type="radio" name="q3">Python</br></br>
-   <input type="radio" name="q3" id="correct3">JavaScript</br></br>
-   <input type="radio" name="q3">Ruby</br>
+   <input type="radio" name="q3" id="correct3">To manage system resources and act as a bridge between applications and hardware</br></br>
+   <input type="radio" name="q3">To provide internet access</br></br>
+   <input type="radio" name="q3">To control the graphical user interface</br></br>
+   <input type="radio" name="q3">To save files on the hard drive</br>
 </div>
 </br>
 
 <div class="que_text">    
-    4.Which of these is NOT a JavaScript data type?</br>
+    4.Which of the following is a characteristic of a real-time operating system?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q4">Undefined</br></br>
-   <input type="radio" name="q4">Number</br></br>
-   <input type="radio" name="q4" id="correct4">Float</br></br>
-   <input type="radio" name="q4">String</br>
+   <input type="radio" name="q4" id="correct4">It provides high-speed processing for specific applications</br></br>
+   <input type="radio" name="q4">It has complex graphical interfaces</br></br>
+   <input type="radio" name="q4">It is open-source</br></br>
+   <input type="radio" name="q4">It is designed for personal use</br>
 </div>
 </br>
 
 <div class="que_text">    
-    5.What does CSS stand for?</br>
+    5.What is the purpose of virtual memory in an operating system?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q5" id="correct5">Cascading Style Sheets</br></br>
-   <input type="radio" name="q5">Computer Style Sheets</br></br>
-   <input type="radio" name="q5">Creative Style Sheets</br></br>
-   <input type="radio" name="q5">Colorful Style Sheets</br>
+   <input type="radio" name="q5">To increase the physical memory of the system</br></br>
+   <input type="radio" name="q5" id="correct5">To allow larger programs to be run than what physical memory can handle</br></br>
+   <input type="radio" name="q5">To speed up the processor</br></br>
+   <input type="radio" name="q5">To save data permanently</br>
 </div>
 </br>
 
 <div class="que_text">    
-    6.In HTML, which tag is used to create a hyperlink?</br>
+    6.In a multi-tasking operating system, what is the term for the process of the operating system switching between tasks?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q6"><"link"></br></br>
-   <input type="radio" name="q6" id="correct6"><"a"></br></br>
-   <input type="radio" name="q6"><"href"></br></br>
-   <input type="radio" name="q6"><"url"></br>
+   <input type="radio" name="q6">Thrashing</br></br>
+   <input type="radio" name="q6" id="correct6">Context switching</br></br>
+   <input type="radio" name="q6">Paging</br></br>
+   <input type="radio" name="q6">Scheduling</br>
 </div>
 </br>
 
 <div class="que_text">    
-    7.What is the correct syntax for including an external JavaScript file?</br>
+    7.Which of these is a non-preemptive scheduling algorithm?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q7"><"script name="filename.js"></br></br>
-   <input type="radio" name="q7"><"script href="filename.js"></br></br>
-   <input type="radio" name="q7" id="correct7"><"script src="filename.js"></br></br>
-   <input type="radio" name="q7"><"script link="filename.js"></br>
+   <input type="radio" name="q7">Round Robin</br></br>
+   <input type="radio" name="q7" id="correct7">Shortest Job Next (SJN)</br></br>
+   <input type="radio" name="q7">Priority Scheduling</br></br>
+   <input type="radio" name="q7">Multilevel Queue Scheduling</br>
    </div>
 </br>
 
 <div class="que_text">    
-    8.Which HTTP method is used to request data from a specified resource?</br>
+    8.What type of operating system is used in embedded devices?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q8">POST</br></br>
-   <input type="radio" name="q8" id="correct8">GET</br></br>
-   <input type="radio" name="q8">PUSH</br></br>
-   <input type="radio" name="q8">SEND</br>
+   <input type="radio" name="q8">Batch Operating System</br></br>
+   <input type="radio" name="q8">Distributed Operating System</br></br>
+   <input type="radio" name="q8" id="correct8">Real-Time Operating System</br></br>
+   <input type="radio" name="q8">Time-Sharing Operating System</br>
 </div>
 </br>
 
 <div class="que_text">    
-    9.Which of the following is a front-end framework?</br>
+    9.Which of the following is true about file systems in an OS?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q9">Django</br></br>
-   <input type="radio" name="q9">Laravel</br></br>
-   <input type="radio" name="q9">Flask</br></br>
-   <input type="radio" name="q9" id="correct9">React</br>
+   <input type="radio" name="q9">They manage CPU scheduling</br></br>
+   <input type="radio" name="q9" id="correct9">They organize and store files on a storage medium</br></br>
+   <input type="radio" name="q9">They handle memory allocation</br></br>
+   <input type="radio" name="q9">They control internet connectivity</br>
 </div>
 </br>
 
 <div class="que_text">    
-    10.What does the "var" keyword in JavaScript do?</br>
+    10.In UNIX-like operating systems, which command is used to list files in a directory?</br>
 </div>
 <div class="answer">
-   <input type="radio" name="q10" id="correct10">Declares a variable</br></br>
-   <input type="radio" name="q10">Calls a function</br></br>
-   <input type="radio" name="q10">Creates a class</br></br>
-   <input type="radio" name="q10">Deletes an object</br>
+   <input type="radio" name="q10" id="correct10">ls</br></br>
+   <input type="radio" name="q10">cd</br></br>
+   <input type="radio" name="q10">rm</br></br>
+   <input type="radio" name="q10">mkdir</br>
 </div>
 </br>
 
@@ -322,6 +323,6 @@ font-size:20px;
    document.write("<h3>Your score is:"+score);
   }
 
-   </>
+   </script>
     </body>
     </html>

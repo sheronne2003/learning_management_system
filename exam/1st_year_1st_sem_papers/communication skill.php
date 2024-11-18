@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Visual Application Programming </title>
+<title> Communication skillS </title>
 <body>
 </br>
   <body>
@@ -40,10 +40,9 @@
 .title{
     border-bottom:1px solid;
     margin-bottom:30px;
-    font-weight:700;
-    font-size:35px;
+    font-weight:200;
+    font-size:30px;
     text-align:center;
-    background:orange;
     }
 
 
@@ -109,7 +108,9 @@ font-size:20px;
  <body>
     <div class="box">
         <div class="title">
-            Communication Skills 
+            <h4>Higher National Diploma in Information Technology</br>
+            First Year First Semester Examination-2021</br>
+            IT 1062-Communication Skills</h4>
         </div>
         <div class="que_text">    
             1.What is the main purpose of communication? </br>
@@ -221,7 +222,7 @@ font-size:20px;
 </div>
 </br>
 
-<a href="exam2.html"><input type="button" value="Back" name="Back" class="btn1"></a>
+<a href="./exam/exam1.php"><input type="button" value="Back" name="Back" class="btn1"></a>
 <a href=""><input type="button" value="Reset" name="reset" class="btn2"></a>
 <input type="submit" name="submit" value="Submit Quiz" onclick="result()" class="btn3">
 </div>
