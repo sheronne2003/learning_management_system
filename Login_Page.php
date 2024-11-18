@@ -23,8 +23,7 @@
             <button type="submit" name="login-btn">Login</button>
         </form>
         <a href="./admin.php" class="Admin">If you are an Admin</a>
-        <!--<a href="#" class="forgot-password">Forgot Password?</a>-->
-        
+        <!--<
     </div>
 
 </body>
