@@ -30,7 +30,7 @@ session_start();
 <body class="d-flex flex-column vh-100 bg-dark text-white">
     <!-- Navigation -->
     <!--<div class=" container-fluid p-0 sticky-top">-->
-        <?php include_once '../includes/navigation.php' ?>
+        <!-- <?php include_once '../includes/navigation.php' ?> -->
     </div>
 
     <!-- main content goes here ...  -->
@@ -162,7 +162,7 @@ These functionalities ensure that an LMS can support diverse teaching and learni
                 </div>
             </div>
             <div class="card lg-me-5 mb-5 bg-secondary" style="width: 25rem;">
-                <img src="../img/nipuni.jpg" class="card-img-top img-cutz" alt="...">
+                <img src="./Images/pic1.jpg" class="card-img-top img-cutz" alt="...">
                 <div class="card-body card-body-cutz">
                     <h5 class="card-title text-white">Sheronne Anjalee</h5>
                     <p class="card-text">

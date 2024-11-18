@@ -1,78 +1,272 @@
+/* Global Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        /* General Page Styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
+/* Custom Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
 
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            color: #444;
-        }
+/* Navbar */
+.navbar {
+    background-color: #000000;
+    padding: 1rem 0;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+/* General Navbar Styling */
+.navbar {
+    background-color: #007bff; /* Blue background */
+    padding: 0.8rem 1rem; /* Adjust padding for better spacing */
+}
 
-        .section {
-            background-color: #ffffff;
-            margin-bottom: 20px;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
+.navbar .navbar-brand img {
+    height: 40px; /* Ensures logo is a consistent height */
+}
 
-        .section:hover {
-            transform: translateY(-10px);
-        }
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem; /* Slightly larger text */
+    font-weight: 500;
+    padding: 10px 15px; /* Increased padding for better clickable area */
+    transition: color 0.3s ease;
+}
 
-        /* Colorful Divs for Each Section */
-        .intro { background: linear-gradient(135deg, #ff6f61, #d84315); color: white; }
-        .purposes { background: linear-gradient(135deg, #4db6ac, #00897b); color: white; }
-        .functionality { background: linear-gradient(135deg, #9575cd, #512da8); color: white; }
-        .get-started { background: linear-gradient(135deg, #ffd54f, #fbc02d); color: white; }
-        .mission { background: linear-gradient(135deg, #42a5f5, #1e88e5); color: white; }
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Gold color for active link */
+}
 
-        /* Team Section Styling */
-        .team-section {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+/* Navbar Links Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Change link color to gold on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight background color on hover */
+    border-radius: 5px; /* Rounded corners on hover for a smoother look */
+}
 
-        .team-member {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: calc(25% - 20px);
-            text-align: center;
-            transition: transform 0.3s;
-        }
+/* Collapse navbar */
+.navbar-toggler {
+    border-color: #fff; /* White border for the toggle button */
+}
 
-        .team-member:hover {
-            transform: translateY(-10px);
-        }
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the toggler icon */
+}
 
-        .team-member img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
+/* For mobile view - Adjust navbar items spacing */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center; /* Center-align the items on small screens */
+    }
 
-        .team-member h3 {
-            margin: 10px 0;
-            color: #333;
-        }
+    .navbar-nav .nav-link {
+        padding: 12px 15px; /* Larger padding for touchscreens */
+        font-size: 1.2rem; /* Increase font size on small screens */
+    }
+}
 
-        .team-member p {
-            color: #666;
-        }
+/* For large screens (desktop) - Adjust navbar alignment */
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end; /* Align navbar items to the right */
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 20px; /* Add spacing between nav items */
+    }
+}
+
+
+
+/* Header Section */
+h1,
+h2 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+    padding: 30px 0;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.btn-custom:focus {
+    outline: none;
+    background-color: #218838;
+}
+
+/* Team Member Styling */
+.team-member {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Icon Section Styling */
+.icon-section i {
+    font-size: 3rem;
+    color: #007bff;
+    margin: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-section i:hover {
+    transform: scale(1.2);
+    color: #28a745; /* Green on hover */
+}
+
+/* Purposes Section Styling */
+.purposes i {
+    color: #28a745; /* Green */
+}
+
+/* Adding background color to some sections */
+.intro,
+.get-started,
+.mission {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.intro h2,
+.get-started h2,
+.mission h2 {
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Hover effects for list items */
+.section ul li:hover {
+    background-color: #e8f5e9;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section ul li {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom Scrollbar for better UX */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .team-member {
+        margin-bottom: 20px;
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+
+    .btn-custom {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+
+    .icon-section i {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Focus Styles for Accessibility */
+a:focus, .btn-custom:focus, .nav-link:focus, .team-member:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
