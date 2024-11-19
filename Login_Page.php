@@ -83,6 +83,7 @@
         .login-container input[type="text"]:focus, .login-container input[type="password"]:focus {
             border-color: #007bff; /* Focus color */
             outline: none;
+            border-bottom: 3px solid #007bff;
         }
 
         /* Submit Button */
@@ -100,6 +101,12 @@
 
         .login-container button:hover {
             background-color: #218838;
+        }
+
+        .login-container button:active{
+            outline: none;
+            background-color: #007bff;
+            scale: (0.98);
         }
 
         /* Additional Links */
@@ -145,8 +152,8 @@
     <h2 class="p-name">SLIATE LMS </h2> 
     <h2 class="login-text">Student Login</h2>
     <form action="./includes/login.inc.php" method="POST" class="login">
-        <input type="text" name="index_no" placeholder="Enter your Index Number here..." required>
-        <input type="password" name="password" placeholder="Enter your Password here..." required>
+        <input type="text" name="index_no" placeholder="Index Number" required>
+        <input type="password" name="password" placeholder=" Password" required>
         <button type="submit" name="login-btn">Login</button>
     </form>
     <a href="./admin.php" class="Admin">If you are an Admin</a>
