@@ -50,7 +50,7 @@
 
     <!-- Main Container -->
     <div class="container welcome-container" data-aos="fade-up">
-        <h1>Welcome to SLIATE LMS</h1>
+        <h1>Welcome to SLIATE LMS -version 1.0 </h1>
         <p>Your gateway to learning and academic success. Explore courses, track your progress, and engage with your peers and instructors. We're excited to have you!</p>
         
         <a href="Login_Page.php" class="dashb-button">Get Started</a>
